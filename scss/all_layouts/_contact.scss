@@ -1,0 +1,367 @@
+.con_ing_ul{
+    display: flex;
+   gap: 24px;
+    align-items: center;
+    width: 80px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.con_line{
+    background: #33323D;
+mix-blend-mode: normal;
+opacity: 0.15;
+}
+.con_title{
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #33323D;
+
+}
+.con_p{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #33323D;
+width: 635px;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.con_texts{
+    display: flex;
+    margin-top: 48px;
+}
+.con_img{
+   position: relative;
+   left: 255px;
+}
+.name{
+    display: block;
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 30px;
+/* identical to box height, or 231% */
+
+
+color: #33323D;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.inputs{
+    flex-direction: column;
+    position: relative;
+    left: 255px;
+    bottom: 50px;
+}
+.name_in{
+     background: #33323D;
+mix-blend-mode: normal;
+opacity: 0.1;
+width: 635px;
+height: 48px;
+
+}
+.name_in:focus{
+    border: 1px solid #5FB4A2;
+}
+.textarea{
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    width: 635px;
+    height: 96px;
+    color: #000;
+
+}
+.name{
+margin-top: 54px;
+}
+.submit_in{
+    margin-top: 24px;
+    background: #203A4C;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit_link{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.submit_in:hover{
+    background: $limecyan;
+}
+.submit_in:active{
+    background: $lightfafa;
+    
+}
+
+
+
+// responsive*******************************************************************************************************
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .con_ing_ul{
+        display: flex;
+        background: #000;
+        align-items: center;
+        width: 80px;
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+    .con_line{
+        background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    }
+    .con_title{
+        font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    
+    }
+    .con_p{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    width: 695px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+    .con_texts{
+        // display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+    }
+    .con_img{
+       position: relative;
+       left: 0px;
+       margin-top: 24px;
+    }
+    .name{
+        display: block;
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    /* identical to box height, or 231% */
+    
+    
+    color: #33323D;
+    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+    .inputs{
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+        bottom: 50px;
+        margin-top: 24px;
+    }
+    .name_in{
+         background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    width: 635px;
+    height: 48px;
+    
+    }
+    .name_in:focus{
+        border: 1px solid #5FB4A2;
+    }
+    .textarea{
+        background: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        width: 635px;
+        height: 96px;
+        color: #000;
+    
+    }
+    .name{
+    margin-top: 54px;
+    }
+    .submit_in{
+        margin-top: 24px;
+        background: #203A4C;
+        width: 200px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .submit_link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .submit_in:hover{
+        background: $limecyan;
+    }
+    .submit_in:active{
+        background: $lightfafa;
+        
+    }
+
+}
+
+
+
+@media only screen and (max-width: 376px) {
+
+
+    .con_ing_ul{
+        display: flex;
+        background: #000;
+        align-items: center;
+        width: 80px;
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+    .con_line{
+        background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    }
+    .con_title{
+        font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    
+    }
+    .con_p{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    width: 311px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+    .con_texts{
+        // display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+    }
+    .con_img{
+       position: relative;
+       left: 0px;
+       margin-top: 24px;
+    }
+    .name{
+        display: block;
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    /* identical to box height, or 231% */
+    
+    
+    color: #33323D;
+    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+    .inputs{
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+        bottom: 50px;
+        margin-top: 24px;
+    }
+    .name_in{
+         background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    width: 311px;
+    height: 48px;
+    
+    }
+    .name_in:focus{
+        border: 1px solid #5FB4A2;
+    }
+    .textarea{
+        background: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        width: 311px;
+        height: 96px;
+        color: #000;
+    
+    }
+    .name{
+    margin-top: 54px;
+    }
+    .submit_in{
+        margin-top: 24px;
+        background: #203A4C;
+        width: 200px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .submit_link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .submit_in:hover{
+        background: $limecyan;
+    }
+    .submit_in:active{
+        background: $lightfafa;
+        
+    }
+
+}
+
+
+

@@ -1,0 +1,310 @@
+.hero{
+    background-image: url(/images/hero_img.png);
+background-repeat: no-repeat;
+height: 600px;
+}
+.hero_p{
+    width: 390px;
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 50px;
+letter-spacing: -0.446429px;
+color:  #33323D;
+}
+.hero_btn{
+    background: $dark-blue;
+    width: 200px;
+    height: 48px;
+    border: none;
+}
+.hero_btn:hover{
+    background: $limecyan;
+}
+.hero_btn:active{
+    background: $lightfafa;
+
+}
+.hero_btn-link{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color:$fafa;
+margin-left: 30px;
+
+
+
+}
+.buttons{
+    position: relative;
+    top: 55px;
+    background: $dark-blue;
+width: 200px;
+height: 48px;
+border: none;
+display: flex;align-items: center;  
+}
+
+.hero_p-button{
+    background-color: #fff;
+    width: 445px;
+    height: 360px;
+    position: relative;
+    top: 240px;
+    padding: 56px 0 0 0 ;
+}
+.buttons:hover{
+    background: $limecyan;
+}
+.buttons:active{
+    background: $lightfafa;
+}
+
+
+
+// Respomsive*********************************************************************88
+
+
+
+@media  screen and (max-width: 992px) {
+
+    .hero{
+        background-image: url(/images/hero_img.png);
+    background-repeat: no-repeat;
+   background-size: 788px 600px; 
+   background-position: center;
+        height: 600px;
+    width: 658px;
+    }
+    
+    .hero_p{
+        width:  498px;
+        font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color:  #33323D;
+    }
+    .hero_btn{
+        background: $dark-blue;
+        width: 200px;
+        height: 48px;
+        border: none;
+    }
+    .hero_btn:hover{
+        background: $limecyan;
+    }
+    .hero_btn:active{
+        background: $lightfafa;
+    
+    }
+    .hero_btn-link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:$fafa;
+    margin-left: 30px;
+    
+    
+    
+    }
+    .buttons{
+        position: relative;
+        top: 55px;
+        background: $dark-blue;
+    width: 200px;
+    height: 48px;
+    border: none;
+    display: flex;
+    align-items: center;  
+    }
+    
+    .hero_p-button{
+        background-color: #fff;
+        width: 514px;
+        height: 310px;
+        position: relative;
+        top: 291px;
+        padding: 56px 0 0 0 ;
+    }
+    .buttons:hover{
+        background: $limecyan;
+    }
+    .buttons:active{
+        background: $lightfafa;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .hero{
+        background-image: url(/images/hero_img.png);
+    background-repeat: no-repeat;
+   background-size: 828px 600px; 
+   background-position: -90px 00px ;
+        height: 600px;
+    width: 738px;
+    }
+    
+    .hero_p{
+        width:  498px;
+        font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color:  #33323D;
+    }
+    .hero_btn{
+        background: $dark-blue;
+        width: 200px;
+        height: 48px;
+        border: none;
+    }
+    .hero_btn:hover{
+        background: $limecyan;
+    }
+    .hero_btn:active{
+        background: $lightfafa;
+    
+    }
+    .hero_btn-link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:$fafa;
+    margin-left: 30px;
+    
+    
+    
+    }
+    .buttons{
+        position: relative;
+        top: 55px;
+        background: $dark-blue;
+    width: 200px;
+    height: 48px;
+    border: none;
+    display: flex;
+    align-items: center;  
+    }
+    
+    .hero_p-button{
+        background-color: #fff;
+        width: 514px;
+        height: 310px;
+        position: relative;
+        top: 291px;
+        padding: 56px 0 0 0 ;
+    }
+    .buttons:hover{
+        background: $limecyan;
+    }
+    .buttons:active{
+        background: $lightfafa;
+    }
+
+}
+
+@media only screen and (max-width: 376px) {
+
+    .hero{
+        background-image: url(/images/intro_res_img.jpg);
+    background-repeat: no-repeat;
+      background-size: contain; 
+   background-position: -20px 00px;
+        height: 600px;
+    width: 375px;
+    }
+    
+    .hero_p{
+        width: 381px;
+        font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color:  #33323D;
+    }
+    .hero_btn{
+        background: $dark-blue;
+        width: 200px;
+        height: 48px;
+        border: none;
+    }
+    .hero_btn:hover{
+        background: $limecyan;
+    }
+    .hero_btn:active{
+        background: $lightfafa;
+    
+    }
+    .hero_btn-link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:$fafa;
+    margin-left: 30px;
+    
+    
+    
+    }
+    .buttons{
+        position: relative;
+        top: 55px;
+        background: $dark-blue;
+    width: 200px;
+    height: 48px;
+    border: none;
+    display: flex;
+    align-items: center;  
+    }
+    
+    .hero_p-button{
+        background-color: #fff;
+        width: 514px;
+        height: 310px;
+        position: relative;
+        top: 291px;
+        padding: 56px 0 0 0 ;
+    }
+    .buttons:hover{
+        background: $limecyan;
+    }
+    .buttons:active{
+        background: $lightfafa;
+    }
+
+}
+
+
+

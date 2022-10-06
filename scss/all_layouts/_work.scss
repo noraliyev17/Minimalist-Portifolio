@@ -1,0 +1,202 @@
+.work_title{
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+/* or 105% */
+height: 84px;
+letter-spacing: -0.357143px;
+width: 350px;
+color: #33323D;
+margin-top: 150px;
+}
+.work{
+    display: flex;  
+    // align-items: center;
+    justify-content: space-between;
+}
+.line_3{
+    height: 1px;
+background: #33323D;
+mix-blend-mode: normal;
+width: 534px;
+margin-left: 32px;
+display: block;
+opacity: 0.15;
+margin-top: 198px;
+}
+.work_btn{
+    background-color: #fff;
+    border: 2px solid $dark-blue;
+    width: 162px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 168px;
+}
+.work_btn-link{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+}
+.work_btn:hover{
+    background-color: $dark-blue-black;
+}
+.work_btn:active{
+    background-color: #fff;
+    border: 1px solid #33323D;
+}
+.work_btn-link:hover{
+    color: #fff;
+    }
+    .work_btn-link:active{
+        color: $dark-blue-black;
+        }
+
+// responsive*********************************************************************************
+
+        @media only screen and (max-width: 992px) {
+
+
+            .work_title{
+                font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* or 105% */
+            height: 84px;
+            letter-spacing: -0.357143px;
+            width: 350px;
+            color: #33323D;
+            margin-top: 150px;
+            }
+            .work{
+                display: flex;  
+                // align-items: center;
+                justify-content: space-between;
+            }
+            .line_3{
+                height: 1px;
+            background: #33323D;
+            mix-blend-mode: normal;
+            width: 113px;
+            
+            display: block;
+            opacity: 0.15;
+            margin-top: 198px;
+            }
+            .work_btn{
+                background-color: #fff;
+                border: 2px solid $dark-blue;
+                width: 142px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 168px;
+                margin-right: 3px;
+            }
+            .work_btn-link{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #33323D;
+            }
+            .work_btn:hover{
+                background-color: $dark-blue-black;
+            }
+            .work_btn:active{
+                background-color: #fff;
+                border: 1px solid #33323D;
+            }
+            .work_btn-link:hover{
+                color: #fff;
+                }
+                .work_btn-link:active{
+                    color: $dark-blue-black;
+                    }
+
+        }      
+        
+        
+        @media only screen and (max-width: 376px) {
+
+            .work_title{
+                font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* or 105% */
+            height: 84px;
+            letter-spacing: -0.357143px;
+            width: 311px;
+            color: #33323D;
+            margin-top: 50px;
+            text-align: center;
+            }
+            .work{
+                // display: flex; 
+                flex-direction: column; 
+                // align-items: center;
+                justify-content: space-between;
+            }
+            .line_3{
+                height: 1px;
+            background: #33323D;
+            mix-blend-mode: normal;
+            width: 113px;
+            display: none;
+            
+            // display: block;
+            opacity: 0.15;
+            margin-top: 8px;
+            }
+            .work_btn{
+                background-color: #fff;
+                border: 2px solid $dark-blue;
+                width: 142px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 68px;
+                margin-left: 80px;
+            }
+            .work_btn-link{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #33323D;
+            }
+            .work_btn:hover{
+                background-color: $dark-blue-black;
+            }
+            .work_btn:active{
+                background-color: #fff;
+                border: 1px solid #33323D;
+            }
+            .work_btn-link:hover{
+                color: #fff;
+                }
+                .work_btn-link:active{
+                    color: $dark-blue-black;
+                    }
+
+        }

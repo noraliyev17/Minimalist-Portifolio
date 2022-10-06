@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+.nav_li-link{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #33323D;
+}
+
+.nav_li-link:active{
+    color: $limecyan;
+}
+.nav_logo{
+    margin-right: 734px;
+}
+.humburger{
+    display: none;
+}
+
+
+// Responseve 992***************************************************************
+
+
+@media only screen and (max-width: 992px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+    .humburger{
+        display: none;
+    }
+    .nav_li-link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    height: 300px;
+    }
+    
+    .nav_li-link:active{
+        color: $limecyan;
+    }
+    .nav_logo{
+        margin-right: 285px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap: 43px;
+    }
+    .humburger{
+        display: none;
+    }
+    .nav_li-link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    height: 300px;
+    }
+    
+    .nav_li-link:active{
+        color: $limecyan;
+    }
+    .nav_logo{
+        margin-right: 355px;
+    }
+
+}
+
+@media only screen and (max-width: 376px) {
+    .navbar{
+        display: none;
+        align-items: center;
+        gap: 43px;
+       
+    }
+    .humburger{
+        display: block;
+        width: 24px;
+        height: 13px;
+    }
+    .nav_li-link{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    height: 300px;
+    }
+    
+    .nav_li-link:active{
+        color: $limecyan;
+    }
+    .nav_logo{
+        margin-right:263px;
+    }
+}
+
